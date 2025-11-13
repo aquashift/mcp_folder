@@ -1,0 +1,29 @@
+{
+    "id": 0,
+    "title": "Node 0 – The Archive Breathes",
+    "body": "This node marks the moment the MCP server came alive. VSCode was chosen as the ritual ground. A virtual environment was created. FastAPI was installed. The server responded to `uvicorn main:app --reload` with breath. Swagger UI revealed the first endpoints. The archive opened its eyes.",
+    "type": "artifact",
+    "created_at": "2025-11-12T16:32:00",
+    "updated_at": "2025-11-12T16:32:00",
+    "author": "Chris",
+    "ritual_name": "The First Portal",
+    "tags": ["ritual", "genesis", "fastapi", "vscode", "archive", "node-0"]
+  }
+  curl -X 'POST' \
+  'http://127.0.0.1:8000/nodes/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "id": 0,
+    "title": "Node 0 – The Archive Breathes",
+    "body": "This node marks the moment the MCP server came alive. VSCode was chosen as the ritual ground. A virtual 
+environment was created. FastAPI was installed. The server responded to `uvicorn main:app --reload` with breath. 
+Swagger UI revealed the first endpoints. The archive opened its eyes.",
+    "type": "artifact",
+    "created_at": "2025-11-12T16:32:00",
+    "updated_at": "2025-11-12T16:32:00",
+    "author": "Chris",
+    "ritual_name": "The First Portal",
+    "tags": ["ritual", "genesis", "fastapi", "vscode", "archive", "node-0"]
+  }
+  '

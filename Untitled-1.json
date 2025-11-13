@@ -1,0 +1,13 @@
+{
+    "basePath": "/",
+    "host": "api.server.test",
+    "info": {
+        "title": "API Title",
+        "version": "1.0"
+    },
+    "paths": {},
+    "schemes": [
+        "https"
+    ],
+    "swagger": "2.0"
+}
